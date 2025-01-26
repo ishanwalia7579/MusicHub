@@ -17,7 +17,7 @@ This project is a **MusicsHub**, showcasing a visually appealing and user-friend
 ## How to Run the Project
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/spotify-clone.git
+   git clone https://github.com/ishanwalia7579/MusicHub.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -35,7 +35,7 @@ spotify-clone/
 
 ## Screenshots
 ![Screenshot of Spotify Clone UI](https://via.placeholder.com/800x400)  
-*Example layout of the Spotify Clone.*
+*Example layout of the MusicsHub.*
 
 ## Future Improvements
 - Add interactivity with JavaScript for a functional music player.
