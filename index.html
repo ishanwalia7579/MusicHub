@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
+
     <title>Music-Hub</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -36,83 +36,4 @@
     <script src="script.js"></script>
 </body>
 </html> 
-=======
-    <title>Spotify Clone</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="navbar">
-        <h1>Spotify</h1>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Library</a></li>
-            <li class="menu">
-                <a href="#">Menu</a>
-                <div class="menu-content">
-                    <a href="#">Profile</a>
-                    <a href="#">Settings</a>
-                    <a href="#">Logout</a>
-                </div>
-            </li>
-        </ul>
-        <!-- Search Bar -->
-        <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Search music...">
-            <button onclick="searchMusic()">Search</button>
-        </div>
-        <button class="toggle-btn" onclick="toggleDarkMode()">Dark Mode</button>
-    </div>
-
-    <div class="main-content" id="musicList">
-        <h2>Trending Songs</h2>
-        <div class="music-section">
-            <div class="song" data-name="Velly Banda">
-                <img src="SIDHU.jpg" alt="Velly Banda Cover">
-                <div>
-                    <h3>Velly Banda</h3>
-                    <p>Sidhu Moose Wala</p>
-                    <audio controls>
-                        <source src="Velly_Banda_1.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-            </div>
-
-            <div class="song" data-name="Sarkari Ban">
-                <img src="kamal.jpg" alt="Sarkari Ban Cover">
-                <div>
-                    <h3>Sarkari Ban</h3>
-                    <p>Kamal Artist</p>
-                    <audio controls>
-                        <source src="Sarkari_Ban_1.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // Dark Mode Toggle
-        function toggleDarkMode() {
-            document.body.classList.toggle('dark-mode');
-        }
-
-        // Search Functionality
-        function searchMusic() {
-            const input = document.getElementById('searchInput').value.toLowerCase();
-            const songs = document.querySelectorAll('.song');
-            
-            songs.forEach(song => {
-                const songName = song.getAttribute('data-name').toLowerCase();
-                if (songName.includes(input)) {
-                    song.style.display = "flex"; // Show matching songs
-                } else {
-                    song.style.display = "none"; // Hide non-matching songs
-                }
-            });
-        }
-    </script>
-</body>
-</html>
->>>>>>> 9ca5d579a776e681fd8072aff0819bf001413b06
+    
